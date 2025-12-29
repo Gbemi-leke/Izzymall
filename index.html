@@ -34,8 +34,14 @@
         <div class="container"><a class="navbar-brand d-inline-flex" href="index.html"><img class="d-inline-block" src="images/logo.png" alt="logo" style="width: auto; height: 50px;"><span class="text-1000 fs-3 fw-bold ms-2 text-gradient">IzzyMall</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 my-2 mt-lg-0" id="navbarSupportedContent">
             <div class="mx-auto pt-5 pt-lg-0 d-block d-lg-none d-xl-block">
-              <p class="mb-0 fw-bold text-lg-center">Deliver to: <i class="fas fa-map-marker-alt text-warning mx-2"></i><span class="fw-normal">Current Location </span><span>Ogun State, Nigeria</span></p>
+              <p class="mb-0 fw-bold text-lg-center">
+                Deliver to:
+                <i class="fas fa-map-marker-alt text-warning mx-2"></i>
+                <span class="fw-normal" id="city">Detecting...</span>
+                <span id="state"> </span>
+              </p>
             </div>
+
             <form class="d-flex mt-4 mt-lg-0 ms-lg-auto ms-xl-0">
               <div class="input-group-icon pe-2"><i class="fas fa-search input-box-icon text-primary"></i><input class="form-control border-0 input-box bg-100" type="search" placeholder="Search Food" aria-label="Search"></div><button class="btn btn-white shadow-warning text-warning" type="submit"> <i class="fas fa-user me-2"></i>Login</button>
             </form>
@@ -1010,6 +1016,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="js/all.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/location.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
   
 
